@@ -1,0 +1,23 @@
+.ul-align {
+    color: darkblue;
+    align-content: center;
+    font-size: 8px;
+    margin-top: 12px;
+}
+
+body {
+    background-color: black;
+    margin: 20px;
+    
+}
+
+
+ul {
+    text-align: center;
+    display: inline-block;
+    margin: 1px;
+}
+
+.search {
+    display: flex;
+}
