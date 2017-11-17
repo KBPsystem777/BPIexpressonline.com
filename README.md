@@ -5,3 +5,4 @@ Clone and responsive version of https://bpiexpressonline.com
 
 This web-app is a cloned version of current BPI website and was developed for training purposes only. Not for commercial use
 
+<b>Also you can see the live progress in </b><a href="https://codepen.io/KBPsystem/pen/pdeLzm">CodePen</a>
