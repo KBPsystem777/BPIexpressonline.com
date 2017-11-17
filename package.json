@@ -1,0 +1,22 @@
+{
+  "name": "bpiexpressonline",
+  "version": "1.0.0",
+  "description": "Clone and responsive version of https://bpiexpressonline.com",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBPsystem777/BPIexpressonline.com.git"
+  },
+  "author": "KBPsystem777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBPsystem777/BPIexpressonline.com/issues"
+  },
+  "homepage": "https://github.com/KBPsystem777/BPIexpressonline.com#readme",
+  "dependencies": {
+    "webpack-dev-server": "^2.9.4"
+  }
+}
