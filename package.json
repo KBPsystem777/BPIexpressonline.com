@@ -1,0 +1,19 @@
+{
+  "name": "bpiexpressonline",
+  "version": "1.0.0",
+  "description": "Clone and responsive version of https://bpiexpressonline.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBPsystem777/BPIexpressonline.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBPsystem777/BPIexpressonline.com/issues"
+  },
+  "homepage": "https://github.com/KBPsystem777/BPIexpressonline.com#readme"
+}
