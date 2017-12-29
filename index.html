@@ -1,72 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="theme-color" content="#a20025"/>
   <title>BPI Express Online</title>
-  <meta name="viewport" content="width=device-width, initial scale=1">
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css'>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet prefetch" href='css\w3.css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css\style.css">
 </head>
-<body class="is-mobile">
-      <section class="hero is-primary is-medium">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title is-1 text-center">
-              BPI Express Mobile
-            </h1>
-          </div>
-        </div>
-      </section><br>
-      <div class"container-fluid">
-          <section>
-            <div class="">
-              <div class="row">
-                <div class="container-fluid">
-                    <div class="level-item is-mobile">
-                      <div id="first-row">
-                        <button class="button is-large"><i class="fa fa-credit-card"></button></i>
-                        <button class="button is-large"><i class="fa fa-map-marker"></button></i>
-                        <button class="button is-large"><i class="fa fa-gift"></button></i>
-                      </div>
-                    </div>
-                </div>
-              </div>
-           </section><br>
-
-           <section>
-             <div class="row">
-                <div class="container-fluid">
-                  <div class="level-item is-mobile">
-                    <div class="">
-                      <button class="button is-large"><i class="fa fa-money"></button></i>
-                      <button class="button is-large"><i class="fa fa-phone"></button></i>
-                      <button class="button is-large"><i class="fa fa-users"></button></i>
-                    </div>
-                </div>
-              </div>
-             </div>
-            </section><br>
-
-              <section>
-               <div class="row">
-                <div class="container-fluid">
-                  <div class="level-item is-mobile">
-                    <div class="">
-                      <button class="button is-large" id="#link"><i class="fa fa-link"></button></i>
-                      <button class="button is-large"><i class="fa fa-envelope"></button></i>
-                      <button class="button is-large"><i class="fa fa-info"></button></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            </div>
-        </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-
-    <script  src="js/index.js"></script>
-
+<body class="w3-mobile">
+  <header>
+    <div class="w3-container w3-win8-crimson w3-mobile w3-center">
+      <h1>BPI Mobile</h1>
+    </div>
+  </header>
+  <div class="w3-container w3-mobile bar">
+    <div class="flex-container">
+      <div class="fa fa-credit-card" onclick="location.reload();location.href='html/accounts.html'"></div>
+      <div class="fa fa-map-marker" onclick="location.reload();location.href='html/branch.html'"></div>
+      <div class="fa fa-gift" onclick="location.reload();location.href='html/promos.html'"></div>
+    </div>
+    <div class="flex-text w3-mobile">
+      <div><p>Accounts</p></div>
+      <div><p>Branch/ATM Locator</p></div>
+      <div><p>Promos</p></div>
+    </div>
+    <div class="flex-container">
+      <div class="fa fa-money" onclick="location.reload();location.href='html/fxrates.html'"></div>
+      <div class="fa fa-phone" onclick="location.reload();location.href='html/prod-apply.html'"></div>
+      <div class="fa fa-users" onclick="location.reload();location.href='html/social.html'"></div>
+    </div>
+    <div class="flex-text w3-mobile">
+      <div><p>FX Rates</p></div>
+      <div><p>Apply for a Product</p></div>
+      <div><p>Social Media</p></div>
+    </div>
+    <div class="flex-container">
+      <div class="fa fa-link" onclick="location.reload();location.href='html/links.html'"></div>
+      <div class="fa fa-envelope" onclick="location.reload();location.href='html/contact.html'"></div>
+      <div class="fa fa-info" onclick="location.reload();location.href='html/info.html'"></div>
+    </div>
+    <div class="flex-text w3-mobile">
+      <div><p>Quick Links</p></div>
+      <div><p>Contact BPI</p></div>
+      <div><p>Info</p></div>
+    </div>
+  </div>
+  <footer id="footer" class="w3-row w3-center w3-mobile">
+      <p>Coded by: <a href="https://www.linkedin.com/in/koleenbp">
+        Koleen BP</a> for BPIexpressonline</p>
+      <p>Original website: <a href="https://bpiexpressonline.com">
+        https://bpiexpressonline.com</a></p>
+  </footer>
+  <script src='js\jquery.min.js'></script>
+  <script  src="js\index.js"></script>
 </body>
 </html>
