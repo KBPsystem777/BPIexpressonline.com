@@ -1,9 +1,65 @@
-.hero-body {
-  background-color: rgb(137,3,4);
-  
+.flex-container {
+  display: flex;
+  justify-content: center;
 }
 
-a {
-  text-decoration: none !important;
-  color: black !important;
+.flex-container>div {
+  background-color: #a20025;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 35px;
+  text-align: center;
+  border: .5px solid #920E16;
+  border-radius: 5px;
+}
+
+.flex-container>div:hover {
+  background-color: #a20025;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 50px;
+  text-align: center;
+  border: .5px solid #920E16;
+  border-radius: 5px;
+}
+
+.flex-text {
+  display: flex;
+  justify-content: center;
+  word-wrap: initial;
+}
+
+.flex-text>div {
+  background-color: #ffffff;
+  width: 80px;
+  margin: 10px;
+  line-height: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bar {
+  margin-top: 25px;
+}
+
+
+
+
+body {
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  display: table;
+  background-color: #a20025;
+  font-size: 10px;
 }
