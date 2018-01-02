@@ -46,8 +46,11 @@
   margin-top: 25px;
 }
 
-
-
+article {
+  display: block; text-align: left; width: 650px; margin: 0 auto;
+  font-family: "Segoe UI",Arial,sans-serif;
+  margin-top: 90px;
+}
 
 body {
   font-family: "Segoe UI",Arial,sans-serif;
@@ -62,4 +65,10 @@ body {
   display: table;
   background-color: #a20025;
   font-size: 10px;
+}
+
+.social-buttons {
+  color: #a20025;
+  font-weight: bold;
+  font-size: 25px;
 }
