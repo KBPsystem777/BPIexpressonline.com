@@ -68,7 +68,10 @@ body {
 }
 
 .social-buttons {
-  color: #a20025;
   font-weight: bold;
   font-size: 25px;
+}
+
+#social-buttons {
+  color: #a20025;
 }
