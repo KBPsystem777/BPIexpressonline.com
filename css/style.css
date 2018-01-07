@@ -15,6 +15,10 @@
   border-radius: 5px;
 }
 
+.index-fa {
+  color: #ffffff;
+}
+
 .flex-container>div:hover {
   background-color: #a20025;
   width: 80px;
