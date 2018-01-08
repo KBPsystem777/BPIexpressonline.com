@@ -20,7 +20,7 @@
 }
 
 .form-border {
-  border: #FFD700 solid 1px;  
+  border: #FFD700 solid 1px;
 }
 .w3-button {
   border: solid #FFD700 1px;
@@ -86,4 +86,9 @@ body {
 
 #social-buttons {
   color: #a20025;
+}
+
+
+#login-form {
+  padding-top: 40px;
 }
