@@ -15,6 +15,24 @@
   border-radius: 5px;
 }
 
+#contact-flex>div {
+  background-color: #a20025;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 35px;
+  text-align: center;
+  border: .5px solid #920E16;
+  border-radius: 5px;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+
 .index-fa {
   color: #ffffff;
 }
