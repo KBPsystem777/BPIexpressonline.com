@@ -90,9 +90,14 @@ body {
 
 
 #login-form {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 #account-links {
   padding-top: 120px;
+}
+
+#accounts-enrollment {
+  background-color: #a20025;
+  color: #ffffff;
 }
