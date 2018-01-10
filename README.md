@@ -2,8 +2,8 @@
 Clone, responsive and **Mobile First version** of `https://bpiexpressonline.com`
 
 
-# See the live progress in
-#### https://goo.gl/JTRZCi
+# See the live progress:
+### https://goo.gl/JTRZCi
 ##### Codepen: https://goo.gl/9ocxff
 
 
