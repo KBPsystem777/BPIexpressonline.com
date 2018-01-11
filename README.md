@@ -12,4 +12,4 @@ Clone, responsive and **Mobile First version** of `https://bpiexpressonline.com`
 
 This web-app is a cloned version of current BPI website and was developed not for commercial use
 
-#### [License link](\license.md)
+#### [License link](https://github.com/KBPsystem777/BPIexpressonline.com/blob/master/license.md)
