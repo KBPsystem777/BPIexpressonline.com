@@ -120,3 +120,14 @@ body {
 #secured {
   color: #339933;
 }
+
+#navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#top-padding {
+  padding-top: 60px;
+}
