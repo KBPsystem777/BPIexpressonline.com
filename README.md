@@ -11,3 +11,5 @@ Clone, responsive and **Mobile First version** of `https://bpiexpressonline.com`
 ### Work In-Progress
 
 This web-app is a cloned version of current BPI website and was developed not for commercial use
+
+#### [License link](\license.md)
