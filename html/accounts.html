@@ -39,16 +39,16 @@
             </div>
             <div class="w3-row">
               <label>User ID </label><br>
-              <input class="w3-bar form-border w3-xlarge w3-center" type="text" required>
+              <input class="w3-bar form-border w3-xlarge w3-center" type="text" id="username" required>
             </div>
             <div class="w3-row">
               <label>Password</label><br>
-              <input class="w3-bar form-border w3-xlarge w3-center" type="password" required>
+              <input class="w3-bar form-border w3-xlarge w3-center" type="password" id="password" required>
             </div>
           </form><br>
           <div class="w3-center">
             <div class="w3-row">
-              <button class="w3-amber w3-button w3-large" id="btn-accounts">Login</button>
+              <button class="w3-amber w3-button w3-large" id="btn-accounts" onclick="accountsLogin()">Login</button>
             </div>
           </div>
         </div>
@@ -64,4 +64,5 @@
     </div>
   </div>
 </body>
+  <script src="..\js\index.js"></script>
 </html>
