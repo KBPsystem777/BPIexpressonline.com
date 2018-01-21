@@ -139,3 +139,12 @@ body {
 #top-padding {
   padding-top: 60px;
 }
+
+.button.is-large {
+    font-size: 30px !important;
+    margin: 20px;
+}
+
+.button {
+  color: rgb(137,3,4);
+}
