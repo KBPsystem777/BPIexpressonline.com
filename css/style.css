@@ -1,6 +1,15 @@
 a {
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#accounts-top-padding {
+  padding-top: 100px;
 }
 
 .flex-container {
@@ -97,6 +106,7 @@ body {
   position: fixed;
   width: 100%;
   font-size: 20px;
+  height: 20px;
 }
 
 .social-buttons {
@@ -136,8 +146,11 @@ body {
   width: 100%;
 }
 
+p {
+  font-size: 14px;
+}
 #top-padding {
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .button.is-large {
