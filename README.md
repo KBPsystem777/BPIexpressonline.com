@@ -1,15 +1,7 @@
 # BPI Mobile
-Clone, responsive and **Mobile First version** of `https://bpiexpressonline.com`
+Clone, responsive and **Mobile First version** of https://bpiexpressonline.com
 
+This project has been archived and moved to: https://github.com/KBPsystem777/BPI-beta
 
-# See the live progress: https://goo.gl/JTRZCi
-### React Implementation on Sandbox: https://goo.gl/TqEuYk
-##### Codepen: https://goo.gl/9ocxff
-
-
-
-### Work In-Progress
-
-This web-app is a cloned version of current BPI website and was developed not for commercial use
 
 #### [License link](https://github.com/KBPsystem777/BPIexpressonline.com/blob/master/license.md)
